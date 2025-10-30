@@ -2,6 +2,8 @@
 
 namespace Cloudifyapps\FilamentCrm;
 
+use Cloudifyapps\FilamentCrm\Commands\FilamentCrmCommand;
+use Cloudifyapps\FilamentCrm\Testing\TestsFilamentCrm;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -13,8 +15,6 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Cloudifyapps\FilamentCrm\Commands\FilamentCrmCommand;
-use Cloudifyapps\FilamentCrm\Testing\TestsFilamentCrm;
 
 class FilamentCrmServiceProvider extends PackageServiceProvider
 {
